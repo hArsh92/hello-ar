@@ -1,0 +1,96 @@
+{
+   bound_relative_root: {
+      x: 0.5,
+      y: 0,
+      z: 0.5,
+   },
+   materials: [
+      {
+         name: "tapete_egipcio_linha_ego_115_K",
+         parameters: [
+            {
+               baseColorFactor: [
+                  0.38431399999999999,
+                  0.36470599999999997,
+                  0.31764700000000001,
+                  1,
+               ],
+            },
+            {
+               baseColor: "tapete_egipcio_linha_ego_115_K",
+            },
+            {
+               diffuseColorFactor: null,
+            },
+            {
+               diffuseColor: null,
+            },
+            {
+               normal: null,
+            },
+            {
+               metallicFactor: 0,
+            },
+            {
+               roughnessFactor: 0.96994800000000003,
+            },
+            {
+               specularFactor: null,
+            },
+            {
+               glossinessFactor: null,
+            },
+            {
+               specularGlossiness: null,
+            },
+            {
+               specularGlossinessCalculation: null,
+            },
+            {
+               metallicRoughness: null,
+            },
+            {
+               occlusion: null,
+            },
+            {
+               emissiveFactor: [
+                  0,
+                  0,
+                  0,
+                  1,
+               ],
+            },
+            {
+               emissive: null,
+            },
+            {
+               reflectance: null,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/gltf_material.sfm",
+      },
+   ],
+   model: {
+      attributes: [
+         "Position",
+         "TexCoord",
+         "Orientation",
+      ],
+      collision: {},
+      file: "sampledata/Carpet/Tapete+Persa (2).gltf",
+      name: "Tapete+Persa (2)",
+      recenter: "root",
+      scale: 0.10000000000000001,
+   },
+   samplers: [
+      {
+         file: "sampledata/Carpet/tapete_egipcio_linha_ego_115_K.jpg",
+         name: "tapete_egipcio_linha_ego_115_K",
+         pipeline_name: "Tapete+Persa (2)/tapete_egipcio_linha_ego_115_K.jpg",
+      },
+   ],
+   version: "0.52:1",
+}
